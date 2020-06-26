@@ -1,8 +1,9 @@
 # lambda-sms
 
-Lambda that sends sms to user. It receives an array of dictionaries containing
+Lambda that sends sms to user, built using Terraform. It receives an array of dictionaries containing
 phone_number and message.
-Input:
+
+Lamba event input:
 
 ```
 {
@@ -23,7 +24,9 @@ Input:
 
 # Usage
 
-Example of usage.
+This modules reads all its Secure Credentials form AWS Systems Manager Parameter Store, as it can be seen in the file *config.py*
+
+## Example of lambda call .
 
 Lambda *asynchronous invocation* is preferable
 
@@ -32,7 +35,7 @@ import json
 import boto3
 from config import MS_SMS
 
-# MS_SMS = "risk-mg-platform-dev-sms"
+# MS_SMS = "name_of_function"
 
 
 def send_sms(messages_array):
@@ -52,4 +55,18 @@ def send_sms(messages_array):
         LogType='None'
     )
 
+```
+
+## Calling module
+
+```
+# Module 
+module "sms" 
+    source = "{git@github.com:DanielDaCosta/lambda-sms.git"
+
+    lambda_name             = var.lambda_sms
+    environment             = var.environment
+    name                    = var.name
+    region                  = var.region
+}
 ```
