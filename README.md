@@ -25,6 +25,9 @@ Lamba event input:
     }
 }
 ```
+# Details
+
+The repository already contains the required Twillio 6.4.0 package installed inside the *package* folder
 
 # Usage
 
