@@ -71,7 +71,7 @@ def send_sms(messages_array):
 ```
 # Module 
 module "sms" 
-    source = "{git@github.com:DanielDaCosta/lambda-sms.git"
+    source = "git@github.com:DanielDaCosta/lambda-sms.git"
 
     lambda_name             = var.lambda_sms
     environment             = var.environment
