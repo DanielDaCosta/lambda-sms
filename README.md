@@ -35,7 +35,7 @@ This modules reads all its Secure Credentials from AWS Systems Manager Parameter
 
 For twilio credentials, you can create your free account in their website: https://www.twilio.com 
 
-## Example of lambda call .
+## Example of lambda call
 
 Lambda *asynchronous invocation* is preferable
 
