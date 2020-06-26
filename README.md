@@ -11,11 +11,15 @@ Lamba event input:
         [
             {
                 'phone_number': '+552199999999',
-                'message': 'Bom dia!'
+                'message': 'Good Morning!'
             },
             {
                 'phone_number': '+5521991299889',
-                'message': 'Bom tarde!'
+                'message': 'Good Afternoon!'
+            },
+            {
+                'phone_number': '+5521991299889',
+                'message': 'Good Night!'
             }
         ]
     }
@@ -24,7 +28,7 @@ Lamba event input:
 
 # Usage
 
-This modules reads all its Secure Credentials form AWS Systems Manager Parameter Store, as it can be seen in the file *config.py*.
+This modules reads all its Secure Credentials from AWS Systems Manager Parameter Store, as it can be seen in the file *config.py*.
 
 For twilio credentials, you can create your free account in their website: https://www.twilio.com 
 
