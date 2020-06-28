@@ -66,7 +66,7 @@ def send_sms(messages_array):
 
 ```
 
-## Calling module
+## Importing Terraform module
 
 ```
 # Module 
