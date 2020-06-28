@@ -3,7 +3,7 @@
 Lambda that sends sms to user, built using Terraform. It receives an array of dictionaries containing
 phone_number and message.
 
-Lamba event input:
+Lamba *event* input:
 
 ```
 {
