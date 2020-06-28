@@ -18,7 +18,7 @@ Lamba *event* input:
                 'message': 'Good Afternoon!'
             },
             {
-                'phone_number': '+5521991299889',
+                'phone_number': '+5521912412997',
                 'message': 'Good Night!'
             }
         ]
