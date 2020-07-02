@@ -1,4 +1,4 @@
-# lambda-sms
+# Sending SMS with AWS Lambda
 
 Lambda that sends sms to user, built using Terraform. It receives an array of dictionaries containing
 phone_number and message.
