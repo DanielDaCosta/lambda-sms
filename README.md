@@ -33,7 +33,7 @@ The repository already contains the required Twillio 6.4.0 package installed ins
 
 This modules reads all its Secure Credentials from AWS Systems Manager Parameter Store, as it can be seen in the file *config.py*.
 
-For twilio credentials, you can create your free account in their website: https://www.twilio.com 
+For *twilio credentials*, you can create your free account in their website: https://www.twilio.com 
 
 ## Example of lambda invoke
 
