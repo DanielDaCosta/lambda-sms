@@ -16,7 +16,7 @@ resource "aws_lambda_function" "lambda_sms" {
   handler          = "handler.lambda_handler"
   runtime          = "python3.7"
 
-  timeout          = 5
+  timeout          = 300
   memory_size      = 128
 
   role             = data.aws_iam_role.lambda_exec_role.arn
