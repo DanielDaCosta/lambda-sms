@@ -1,4 +1,4 @@
-# Sending SMS with AWS Lambda
+# Sending SMS in AWS Lambda with Twilio API
 
 Lambda that sends sms to user, built using Terraform. It receives an array of dictionaries containing
 phone_number and message.
